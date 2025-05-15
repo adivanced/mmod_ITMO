@@ -1,0 +1,5 @@
+{
+ "targetPoints": "target_points.txt",
+ "basisPoints": "basis_points.txt",
+ "resultedPoints": "result_points.txt"
+}
