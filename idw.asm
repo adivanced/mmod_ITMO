@@ -72,8 +72,8 @@ idw:
 	vbroadcastss ymm3, xmm3 ; array of 1.0fs
 
 	mov r8, rdx 
-	shr r8, 3 ; number of SIMD iterations
-	and rdx, 0x7 ; r8 - number of scalar iterations
+	shr r8, 3 ; r8 - number of SIMD iterations
+	and rdx, 0x7 ; rdx - number of scalar iterations
 
 	vpxor ymm4, ymm4 ; tmp (1/dist) SIMD
 	vpxor ymm5, ymm5 ; result SIMD
